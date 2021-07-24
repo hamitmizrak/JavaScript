@@ -7,6 +7,7 @@
 çoklu satırlar
 */
 
+/* ++++++++++++++++++++++++++++++++++++++++++++++ OUTPUT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 //output
 // console.log("yazılımcının kodlamada işlem yapabilmesini sağlayan yapıdır")
 // window.alert("window alert")
@@ -15,6 +16,7 @@
 
 //js yazmıyoruz: <script></script>
 
+/* ++++++++++++++++++++++++++++++++++++++++++++++ DEĞİŞKENLER+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 // dinamik için değişkenler
 // değişkenlerde white space= boşluk yazalım
 //var = global değişkenlerde kullanabiliyoruz ancak tehlikelidir.
@@ -44,10 +46,12 @@
 // xyz=["Hamit","Mızrak","JavaScript"];
 // xyz={adi:"Hamit",soyadi:"Mızrak",dil:"JavaScript"}
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++UNDEFINED +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* undefined : içeriği girilmemiz yapılara denir */
 // var sayi;
 // alert(sayi);
 
+/* ++++++++++++++++++++++++++++++++++++++++++++ OPERARÖRLER +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* OPERATÖRLER */
 //operatörler:
 // Mantıksal Operators    (logic operators)  Bitwise  &=ve |=veya ^=değil
@@ -109,6 +113,7 @@
 //   alert("sayılar türe bakarak karar ver");
 // }
 
+/* ++++++++++++++++++++++++++++++++++++++ TYPEOF  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* typeof*/
 // var nedir=44;       //number
 // var nedir = 44.44;  //number
@@ -122,6 +127,7 @@
 //      alert("sayı değildir")
 //  }
 
+/* +++++++++++++++++++++++++++++++++++++ PROMPT  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*prompt*/
 // var isim = prompt("adınızı giriniz");
 // console.log(isim);
@@ -129,16 +135,18 @@
 // alert(isim);
 // window.alert(isim);
 
+/* ++++++++++++++++++++++++++++++++ FUNKSIYON+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* function */
 //function -1  : parametresiz Returnsuz
-function parametresizReturnsuz() {
-  alert("parametresiz Returnsuz");
-}
+// function parametresizReturnsuz() {
+//   alert("parametresiz Returnsuz");
+// }
 //parametresizReturnsuz();
 
 //function -2  : parametreli Returnsuz
-function parametreliReturnsuz(sayi) {
-  alert("parametreli Returnsuz " + sayi);
-}
+// function parametreliReturnsuz(sayi) {
+//   alert("parametreli Returnsuz " + sayi);
+// }
 //parametreliReturnsuz(44);
 
 //function -3  : parametresiz Returnlu
@@ -149,14 +157,44 @@ function parametreliReturnsuz(sayi) {
 // alert(degisken);
 
 //function -4  : parametreli Returnlu
-function parametreliReturnlu(sayi1, sayi2) {
-  return sayi1 + sayi2;
-}
-var degisken = parametreliReturnlu(10,20);
-alert(degisken);
+// function parametreliReturnlu(sayi1, sayi2) {
+//   return sayi1 + sayi2;
+// }
+// var degisken = parametreliReturnlu(10,20);
+// alert(degisken);
 
+/* +++++++++++++++++++++++++++++++++++++ LOCAL GLOBAL  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+var _global = "Bu sayfadan her yerden erişim sağlayabilirsiniz";
+alert(_global);
+
+//this => bu keyword global değişkenleri çağırmak için kullanıyoruz.
+
+function fonksiyonAdi() {
+  //alert("fonksiyonda çağırdım. " + _global);
+  alert("fonksiyonda çağırdım. " + this._global);
+  let _localDegisken = "Local değişkenim";
+  alert(" " + _localDegisken);
+}
+fonksiyonAdi();
+
+function fonksiyonAdi2() {
+  //alert("fonksiyonda çağırdım. " + _global);
+  alert("fonksiyonda çağırdım. " + this._global);
+  //alert(" " + _localDegisken);
+}
+fonksiyonAdi2();
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
 1-) kelime: tek tırnak , çift tırnak yazabiliriz.
 2-) değişkenkerde underscore(_)  veya Dolar ($)
 3-) fonksiyon Adları: CamelCase olarak yazalım
+4-) Js Case Sensitive bir betik dildir.
+5-)
+*/
+
+/* Dikkat edilecek hususlar
+1-) Local değişkenler kullanın
+2-) function birimlerde let kullanalım.
+
 */
