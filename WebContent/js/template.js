@@ -123,14 +123,40 @@
 //  }
 
 /*prompt*/
-var isim = prompt("adınızı giriniz");
-console.log(isim);
-document.write(isim);
-alert(isim);
-window.alert(isim);
+// var isim = prompt("adınızı giriniz");
+// console.log(isim);
+// document.write(isim);
+// alert(isim);
+// window.alert(isim);
+
+//function -1  : parametresiz Returnsuz
+function parametresizReturnsuz() {
+  alert("parametresiz Returnsuz");
+}
+//parametresizReturnsuz();
+
+//function -2  : parametreli Returnsuz
+function parametreliReturnsuz(sayi) {
+  alert("parametreli Returnsuz " + sayi);
+}
+//parametreliReturnsuz(44);
+
+//function -3  : parametresiz Returnlu
+// function parametresizReturnlu() {
+//   return "Hamit Mızrak";
+// }
+// var degisken = parametresizReturnlu();
+// alert(degisken);
+
+//function -4  : parametreli Returnlu
+function parametreliReturnlu(sayi1, sayi2) {
+  return sayi1 + sayi2;
+}
+var degisken = parametreliReturnlu(10,20);
+alert(degisken);
 
 /*common rules : Genel Kurallar
 1-) kelime: tek tırnak , çift tırnak yazabiliriz.
 2-) değişkenkerde underscore(_)  veya Dolar ($)
-3-)
+3-) fonksiyon Adları: CamelCase olarak yazalım
 */
