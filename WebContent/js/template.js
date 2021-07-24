@@ -19,7 +19,7 @@
 // değişkenlerde white space= boşluk yazalım
 //var = global değişkenlerde kullanabiliyoruz ancak tehlikelidir.
 //global değişkenler
-var kalem = "Adel 44";
+var kalem = 'Adel 44';
 document.write(kalem);
 kalem="Rotring";
 document.write(" "+kalem);
@@ -27,14 +27,23 @@ document.write(" "+kalem);
 //let-const: ortak yönleri localdir
 //let-const: farklı yönleri const: değiştiremezsiniz.
 //local değişkenler
-let sayi =44;
-document.write(sayi);
-sayi=999;
+let _sayi =44;
+document.write(_sayi);
+_sayi=999;
 
 
 //local değişkenler const: sabittir değiştirmezsin
 const sabit=55;
-alert(sabit);
+alert($sabit);
+
+//Büyük resme bakış
+var xyz;
+xyz=44; //ondalık sayı
+xyz=44.55; //virgülü sayı
+xyz="Hamit Mızrak"; //kelimesel
+xyz=true; //boolean
+xyz=["Hamit","Mızrak","JavaScript"];
+xyz={adi:"Hamit",soyadi:"Mızrak",dil:"JavaScript"}
 
 
 
@@ -44,6 +53,9 @@ alert(sabit);
 
 
 
-
-//common rules : Genel Kurallar
+/*common rules : Genel Kurallar
+1-) kelime: tek tırnak , çift tırnak yazabiliriz.
+2-) değişkenkerde underscore(_)  veya Dolar ($)
+3-)
+*/
 
