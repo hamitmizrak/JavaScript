@@ -184,6 +184,26 @@ function fonksiyonAdi2() {
 }
 fonksiyonAdi2();
 
+/* +++++++++++++++++++++++++++++++++++++ Overloading  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//overloading: fonksiyon isimleri eklerken sıkıntı yaşıyarsak overloading kullanalım.
+//overloading: aynı fonksiyon isimli ancak ama ancak parametre sayıları farklı olacak.
+
+// function fonksiyonAdi() {
+//     //alert("fonksiyonda çağırdım. " + _global);
+//     alert("fonksiyonda çağırdım. " + this._global);
+//     var _localDegisken = "Local değişkenim";
+//     alert(" " + _localDegisken);
+//   }
+//   fonksiyonAdi();
+
+//   function fonksiyonAdi(sayi) {
+//     //alert("fonksiyonda çağırdım. " + _global);
+//     alert("fonksiyonda çağırdım. " + this._global);
+//     var _localDegisken = "Local değişkenim";
+//     alert(" " + _localDegisken);
+//   }
+//   fonksiyonAdi(44);
+
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
 1-) kelime: tek tırnak , çift tırnak yazabiliriz.
