@@ -109,7 +109,7 @@
 //   alert("sayılar türe bakarak karar ver");
 // }
 
-// typeof
+/* typeof*/
 // var nedir=44;       //number
 // var nedir = 44.44;  //number
 // var nedir="44";     //string
@@ -121,6 +121,13 @@
 //  }else{
 //      alert("sayı değildir")
 //  }
+
+/*prompt*/
+var isim = prompt("adınızı giriniz");
+console.log(isim);
+document.write(isim);
+alert(isim);
+window.alert(isim);
 
 /*common rules : Genel Kurallar
 1-) kelime: tek tırnak , çift tırnak yazabiliriz.
