@@ -222,17 +222,44 @@
 // }
 
 /* ++++++++++++++++++++++++++++++++++++ Math+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-document.write(Math.PI +"\n"); 
-document.write(Math.E+"\n");
-document.write(Math.min(4,5,6,10,-50)+"\n");
-document.write(Math.max(4,5,6,10,-50)+"\n");
-document.write(Math.sqrt(25)+"\n");
-document.write(Math.abs(-50)+"\n");
-document.write(Math.pow(2,5)+"\n");
-document.write(Math.floor(4.9)+"\n");
-document.write(Math.ceil(4.1)+"\n");
-document.write(Math.round(4.5)+"\n");
-document.write( Math.round((Math.random()*2+1))   +"\n");
+// document.write(Math.PI +"\n");
+// document.write(Math.E+"\n");
+// document.write(Math.min(4,5,6,10,-50)+"\n");
+// document.write(Math.max(4,5,6,10,-50)+"\n");
+// document.write(Math.sqrt(25)+"\n");
+// document.write(Math.abs(-50)+"\n");
+// document.write(Math.pow(2,5)+"\n");
+// document.write(Math.floor(4.9)+"\n");
+// document.write(Math.ceil(4.1)+"\n");
+// document.write(Math.round(4.5)+"\n");
+// document.write( Math.round((Math.random()*2+1))   +"\n");
+
+/* ++++++++++++++++++++++++++++++++++++ Number+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+var sayi = 44;
+document.write(sayi + "\n");
+
+var sayi2 = 44.52;
+document.write(sayi2 + "\n");
+
+var sayi3 = 445289652e4;
+document.write(sayi3 + "\n");
+
+var sayi4 = 445289652e-4;
+document.write(sayi4 + "\n");
+
+const sayi5 = 0xfa;
+document.write(sayi5 + "\n");
+
+// var sayi6 = 44;
+// document.write(sayi6.toString(2) + "\n"); // 2'lik sayı sistemi
+// document.write(sayi6.toString(8) + "\n"); // 8'lik sayı sistemi
+// document.write(sayi6.toString(16) + "\n"); //16'lık sayı sistemi
+// document.write("\n");
+
+//NaN =Not A Number 
+document.write(50/25+"\n");
+document.write(50/"25"+"\n");
+document.write(50/"kelime"+"\n");
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
