@@ -263,31 +263,44 @@
 
 /* ++++++++++++++++++++++++++++++++++++ Kelime +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-let kelime = "JavA Kelime";
-document.write(kelime.length + "\n");
-document.write(kelime.trim().length + "\n");
-document.write(kelime.toUpperCase() + "\n");
-document.write(kelime.toLowerCase() + "\n");
-document.write(kelime + " sonuna eklendi" + "\n");
-document.write(kelime.concat(" sonuna eklendi") + "\n");
-document.write(kelime.charAt(0) + "\t");
+// let kelime = "JavA Kelime";
+// document.write(kelime.length + "\n");
+// document.write(kelime.trim().length + "\n");
+// document.write(kelime.toUpperCase() + "\n");
+// document.write(kelime.toLowerCase() + "\n");
+// document.write(kelime + " sonuna eklendi" + "\n");
+// document.write(kelime.concat(" sonuna eklendi") + "\n");
+// document.write(kelime.charAt(0) + "\t");
 
-document.write(kelime.indexOf("v"));
-document.write(kelime.search("v"));
-document.write(kelime.lastIndexOf("m"));
+// document.write(kelime.indexOf("v"));
+// document.write(kelime.search("v"));
+// document.write(kelime.lastIndexOf("m"));
 
-document.write(kelime.replace("JavA", " javascript"));
+// document.write(kelime.replace("JavA", " javascript"));
 
-document.write(kelime.substring(0, 2) + " \n"); //0<=x<2
-document.write(kelime.slice(-10, 2) + " \n"); //0<=x<2
+// document.write(kelime.substring(0, 2) + " \n"); //0<=x<2
+// document.write(kelime.slice(-10, 2) + " \n"); //0<=x<2
 
 //var user = prompt("Harf giriniz");
 //document.write(kelime.startsWith(user)+" \n");
-document.write(kelime.startsWith("J") + " \n");
-document.write(kelime.endsWith(" ") + " \n");
-document.write( " \n");
-document.write(kelime.split("") + " \n");
-document.write(kelime.split(" ") + " \n");
+// document.write(kelime.startsWith("J") + " \n");
+// document.write(kelime.endsWith(" ") + " \n");
+// document.write( " \n");
+// document.write(kelime.split("") + " \n");
+// document.write(kelime.split("a") + " \n");
+
+/* ++++++++++++++++++++++++++++++++++++ cast : dönüştürme +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// kelimeyi sayıya çevirdi
+var kelime = "10";
+var sayi = 20;
+alert(Number(kelime) + sayi);
+
+
+// sayıyı kelimeye çevirdi
+var sayi2 = 20;
+var kelime2 = "10";
+alert(String(sayi2) + kelime2);
+
 
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
