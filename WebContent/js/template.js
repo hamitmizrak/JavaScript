@@ -164,25 +164,25 @@
 // alert(degisken);
 
 /* +++++++++++++++++++++++++++++++++++++ LOCAL GLOBAL  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-var _global = "Bu sayfadan her yerden erişim sağlayabilirsiniz";
-alert(_global);
+// var _global = "Bu sayfadan her yerden erişim sağlayabilirsiniz";
+// alert(_global);
 
-//this => bu keyword global değişkenleri çağırmak için kullanıyoruz.
+// //this => bu keyword global değişkenleri çağırmak için kullanıyoruz.
 
-function fonksiyonAdi() {
-  //alert("fonksiyonda çağırdım. " + _global);
-  alert("fonksiyonda çağırdım. " + this._global);
-  let _localDegisken = "Local değişkenim";
-  alert(" " + _localDegisken);
-}
-fonksiyonAdi();
+// function fonksiyonAdi() {
+//   //alert("fonksiyonda çağırdım. " + _global);
+//   alert("fonksiyonda çağırdım. " + this._global);
+//   let _localDegisken = "Local değişkenim";
+//   alert(" " + _localDegisken);
+// }
+// fonksiyonAdi();
 
-function fonksiyonAdi2() {
-  //alert("fonksiyonda çağırdım. " + _global);
-  alert("fonksiyonda çağırdım. " + this._global);
-  //alert(" " + _localDegisken);
-}
-fonksiyonAdi2();
+// function fonksiyonAdi2() {
+//   //alert("fonksiyonda çağırdım. " + _global);
+//   alert("fonksiyonda çağırdım. " + this._global);
+//   //alert(" " + _localDegisken);
+// }
+// fonksiyonAdi2();
 
 /* +++++++++++++++++++++++++++++++++++++ Overloading  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 //overloading: fonksiyon isimleri eklerken sıkıntı yaşıyarsak overloading kullanalım.
@@ -203,6 +203,23 @@ fonksiyonAdi2();
 //     alert(" " + _localDegisken);
 //   }
 //   fonksiyonAdi(44);
+
+/* ++++++++++++++++++++++++++++++++++++ escape character +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// alert('"');
+// alert("'\"");
+
+/* ++++++++++++++++++++++++++++++++++++ try -  catch +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+// try {
+//   //kodlarımzda meydana gelecek hatalarını önüne geçmek için kulandığımız bir yapıdır.
+//   var sayi = 3 / 0;
+//   alert(sayi);
+// } catch (error) {
+//     alert(error.message);
+//   alert("hata meydana geldi");
+// } finally {
+//   alert("Burası kesin çalışacak yerdir.");
+// }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
