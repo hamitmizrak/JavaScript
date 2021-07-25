@@ -1,3 +1,27 @@
+//"use strict"
+/*
+katı kurallar bütünüdür. 
+Güvenliği sağlamak.
+a=5; yazamayız mutlaka var a=5; yazmamız gerekir.
+değişken veya nesne silinmesine izin verilmez.
+var x=5;
+delete x;
+fonksiyonda aynı parametre yazılmasına izin verilmez.
+function name (x1,x1);
+Escape karakter yazamayız.
+Sekizli sayıyı kullanamayız.
+with izin verilmez
+public  izin verilmez.
+private  izin verilmez.
+protected  izin verilmez.
+static  izin verilmez.
+yield  izin verilmez.
+let  izin verilmez.
+package  izin verilmez.
+implements izin verilmez.
+interface  izin verilmez.
+*/
+
 //comment= Yorumlama
 //tek satırlım yorumlama
 
@@ -394,29 +418,28 @@ function name(sayi1, sayi2) {
 //toplamada etkisiz eleman=0
 //çarpmada etkisiz eleman=1
 // 0 1 2 3 4
-var toplam = 0,tekSayiToplam=0,ciftSayiToplam=0;
+var toplam = 0,
+  tekSayiToplam = 0,
+  ciftSayiToplam = 0;
 for (var i = 0; i <= 4; i++) {
   toplam = toplam + i;
-  if(i%2==0){
-      ciftSayiToplam+=i;
-  }else{
-    tekSayiToplam+=i;
+  if (i % 2 == 0) {
+    ciftSayiToplam += i;
+  } else {
+    tekSayiToplam += i;
   }
 }
-document.write("toplamları: "+toplam);
-document.write("çift sayı toplamları: "+ciftSayiToplam);
-document.write("tek sayı toplamları: "+tekSayiToplam);
+document.write("toplamları: " + toplam);
+document.write("çift sayı toplamları: " + ciftSayiToplam);
+document.write("tek sayı toplamları: " + tekSayiToplam);
 
-toplam=0;
+toplam = 0;
 for (var i = 0; i <= 11; i++) {
-    if(i==8)
-    break;
-    if(i==5)
-    continue;
-    toplam+=i;
+  if (i == 8) break;
+  if (i == 5) continue;
+  toplam += i;
 }
-document.write("toplamları: "+toplam);
-
+document.write("toplamları: " + toplam);
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
