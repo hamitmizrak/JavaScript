@@ -235,20 +235,20 @@
 // document.write( Math.round((Math.random()*2+1))   +"\n");
 
 /* ++++++++++++++++++++++++++++++++++++ Number+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-var sayi = 44;
-document.write(sayi + "\n");
+// var sayi = 44;
+// document.write(sayi + "\n");
 
-var sayi2 = 44.52;
-document.write(sayi2 + "\n");
+// var sayi2 = 44.52;
+// document.write(sayi2 + "\n");
 
-var sayi3 = 445289652e4;
-document.write(sayi3 + "\n");
+// var sayi3 = 445289652e4;
+// document.write(sayi3 + "\n");
 
-var sayi4 = 445289652e-4;
-document.write(sayi4 + "\n");
+// var sayi4 = 445289652e-4;
+// document.write(sayi4 + "\n");
 
-const sayi5 = 0xfa;
-document.write(sayi5 + "\n");
+// const sayi5 = 0xfa;
+// document.write(sayi5 + "\n");
 
 // var sayi6 = 44;
 // document.write(sayi6.toString(2) + "\n"); // 2'lik sayı sistemi
@@ -256,10 +256,39 @@ document.write(sayi5 + "\n");
 // document.write(sayi6.toString(16) + "\n"); //16'lık sayı sistemi
 // document.write("\n");
 
-//NaN =Not A Number 
-document.write(50/25+"\n");
-document.write(50/"25"+"\n");
-document.write(50/"kelime"+"\n");
+//NaN =Not A Number
+// document.write(50/25+"\n");
+// document.write(50/"25"+"\n");
+// document.write(50/"kelime"+"\n");
+
+/* ++++++++++++++++++++++++++++++++++++ Kelime +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+let kelime = "JavA Kelime";
+document.write(kelime.length + "\n");
+document.write(kelime.trim().length + "\n");
+document.write(kelime.toUpperCase() + "\n");
+document.write(kelime.toLowerCase() + "\n");
+document.write(kelime + " sonuna eklendi" + "\n");
+document.write(kelime.concat(" sonuna eklendi") + "\n");
+document.write(kelime.charAt(0) + "\t");
+
+document.write(kelime.indexOf("v"));
+document.write(kelime.search("v"));
+document.write(kelime.lastIndexOf("m"));
+
+document.write(kelime.replace("JavA", " javascript"));
+
+document.write(kelime.substring(0, 2) + " \n"); //0<=x<2
+document.write(kelime.slice(-10, 2) + " \n"); //0<=x<2
+
+//var user = prompt("Harf giriniz");
+//document.write(kelime.startsWith(user)+" \n");
+document.write(kelime.startsWith("J") + " \n");
+document.write(kelime.endsWith(" ") + " \n");
+document.write( " \n");
+document.write(kelime.split("") + " \n");
+document.write(kelime.split(" ") + " \n");
+
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
