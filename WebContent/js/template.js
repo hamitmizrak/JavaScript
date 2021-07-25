@@ -221,6 +221,19 @@
 //   alert("Burası kesin çalışacak yerdir.");
 // }
 
+/* ++++++++++++++++++++++++++++++++++++ Math+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+document.write(Math.PI +"\n"); 
+document.write(Math.E+"\n");
+document.write(Math.min(4,5,6,10,-50)+"\n");
+document.write(Math.max(4,5,6,10,-50)+"\n");
+document.write(Math.sqrt(25)+"\n");
+document.write(Math.abs(-50)+"\n");
+document.write(Math.pow(2,5)+"\n");
+document.write(Math.floor(4.9)+"\n");
+document.write(Math.ceil(4.1)+"\n");
+document.write(Math.round(4.5)+"\n");
+document.write( Math.round((Math.random()*2+1))   +"\n");
+
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
 1-) kelime: tek tırnak , çift tırnak yazabiliriz.
