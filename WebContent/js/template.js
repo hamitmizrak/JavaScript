@@ -291,15 +291,41 @@
 
 /* ++++++++++++++++++++++++++++++++++++ cast : dönüştürme +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 // kelimeyi sayıya çevirdi
-var kelime = "10";
-var sayi = 20;
-alert(Number(kelime) + sayi);
-
+// var kelime = "10";
+// var sayi = 20;
+// alert(Number(kelime) + sayi);
 
 // sayıyı kelimeye çevirdi
-var sayi2 = 20;
-var kelime2 = "10";
-alert(String(sayi2) + kelime2);
+// var sayi2 = 20;
+// var kelime2 = "10";
+// alert(String(sayi2) + kelime2);
+
+/* ++++++++++++++++++++++++++++++++++++ if else else-if ternary +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// var sayi = 15;
+// if (sayi <= 10) {
+//   document.write("sayı 10 veya küçüktür");
+// } else {
+//   document.write("sayı 10'dan büyüktür");
+// }
+
+//Ternary
+// var sayi = 15;
+// var result=(sayi <= 10) ? "sayı 10 veya küçüktür" : "sayı 10'dan büyüktür";
+// alert(result)
+
+
+// var sayi = 40;
+// if (sayi == 10) {
+//   document.write("sayı 10 ");
+// } else if (sayi == 20) {
+//   document.write("sayı 20 ");
+// } else if (sayi == 30) {
+//   document.write("sayı 30 ");
+// } else if (sayi == 40) {
+//   document.write("sayı 40 ");
+// } else {
+//   document.write("aradığınız bulunamadı..");
+// }
 
 
 
