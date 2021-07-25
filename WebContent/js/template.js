@@ -358,26 +358,65 @@
 
 /* ++++++++++++++++++++++++++++++++++++ loop +for +while +do-while +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-for (var sayi = 0; sayi < 10; sayi++) {
-  document.write(sayi + " ");
+// for (var sayi = 0; sayi < 10; sayi++) {
+//   document.write(sayi + " ");
+// }
+// document.write("\n");
+
+// var sayi2 = 0;
+// while (sayi2 < 10) {
+//   document.write(sayi2 + " ");
+//   sayi2++;
+// }
+
+// document.write("\n");
+// var sayi3 = 0;
+// do {
+//   document.write("şart sağlasın yada sağlamasın\n 1 kez çalışacak: " + sayi3);
+//   sayi3+=1;
+// } while (sayi3 < -20);
+
+/* ++++++++++++++++++++++++++++++++++++ return break continue +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+//return: metotu çalışmasını durdurur.
+//break : döngü çalışmasını durdurur.
+//continue: 1 kere çalışmaz sonra devam eder
+
+function name(sayi1, sayi2) {
+  return sayi1 + sayi2;
 }
-document.write("\n");
 
+// s1-) 1 ila 20 arasındaki sayıları toplasın (1 ve 20 dahil)
+// s2-) tek sayıları toplasın
+// s3-) çift sayıları toplasın
+// s4-) ancak 5 sayısını  toplamasın ve 8'den sonra toplama yapmasın
 
-
-
-var sayi2 = 0;
-while (sayi2 < 10) {
-  document.write(sayi2 + " ");
-  sayi2++;
+//toplamada etkisiz eleman=0
+//çarpmada etkisiz eleman=1
+// 0 1 2 3 4
+var toplam = 0,tekSayiToplam=0,ciftSayiToplam=0;
+for (var i = 0; i <= 4; i++) {
+  toplam = toplam + i;
+  if(i%2==0){
+      ciftSayiToplam+=i;
+  }else{
+    tekSayiToplam+=i;
+  }
 }
+document.write("toplamları: "+toplam);
+document.write("çift sayı toplamları: "+ciftSayiToplam);
+document.write("tek sayı toplamları: "+tekSayiToplam);
 
-document.write("\n");
-var sayi3 = 0;
-do {
-  document.write("şart sağlasın yada sağlamasın\n 1 kez çalışacak: " + sayi3);
-  sayi3+=1;
-} while (sayi3 < -20);
+toplam=0;
+for (var i = 0; i <= 11; i++) {
+    if(i==8)
+    break;
+    if(i==5)
+    continue;
+    toplam+=i;
+}
+document.write("toplamları: "+toplam);
+
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
