@@ -406,9 +406,9 @@ interface  izin verilmez.
 //break : döngü çalışmasını durdurur.
 //continue: 1 kere çalışmaz sonra devam eder
 
-function name(sayi1, sayi2) {
-  return sayi1 + sayi2;
-}
+// function name(sayi1, sayi2) {
+//   return sayi1 + sayi2;
+// }
 
 // s1-) 1 ila 20 arasındaki sayıları toplasın (1 ve 20 dahil)
 // s2-) tek sayıları toplasın
@@ -418,28 +418,43 @@ function name(sayi1, sayi2) {
 //toplamada etkisiz eleman=0
 //çarpmada etkisiz eleman=1
 // 0 1 2 3 4
-var toplam = 0,
-  tekSayiToplam = 0,
-  ciftSayiToplam = 0;
-for (var i = 0; i <= 4; i++) {
-  toplam = toplam + i;
-  if (i % 2 == 0) {
-    ciftSayiToplam += i;
-  } else {
-    tekSayiToplam += i;
-  }
-}
-document.write("toplamları: " + toplam);
-document.write("çift sayı toplamları: " + ciftSayiToplam);
-document.write("tek sayı toplamları: " + tekSayiToplam);
+// var toplam = 0,
+//   tekSayiToplam = 0,
+//   ciftSayiToplam = 0;
+// for (var i = 0; i <= 4; i++) {
+//   toplam = toplam + i;
+//   if (i % 2 == 0) {
+//     ciftSayiToplam += i;
+//   } else {
+//     tekSayiToplam += i;
+//   }
+// }
+// document.write("toplamları: " + toplam);
+// document.write("çift sayı toplamları: " + ciftSayiToplam);
+// document.write("tek sayı toplamları: " + tekSayiToplam);
 
-toplam = 0;
-for (var i = 0; i <= 11; i++) {
-  if (i == 8) break;
-  if (i == 5) continue;
-  toplam += i;
-}
-document.write("toplamları: " + toplam);
+// toplam = 0;
+// for (var i = 0; i <= 11; i++) {
+//   if (i == 8) break;
+//   if (i == 5) continue;
+//   toplam += i;
+// }
+// document.write("toplamları: " + toplam);
+
+/* ++++++++++++++++++++++++++++++++++++ Date +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+var tarih = new Date();
+console.log(tarih);
+console.log(tarih.getDate());
+console.log(tarih.getMonth());
+console.log(tarih.getTime());
+console.log(tarih.getFullYear());
+console.log(tarih.getMilliseconds());
+
+console.log(tarih.setDate(5));
+console.log(tarih.getDate());
+console.log(tarih.toDateString());
+
+// console.log(tarih);
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
@@ -453,5 +468,6 @@ document.write("toplamları: " + toplam);
 /* Dikkat edilecek hususlar
 1-) Local değişkenler kullanın
 2-) function birimlerde let kullanalım.
+3-) bir yerde native görürsem bilecem ki () yazmadım
 
 */
