@@ -333,28 +333,51 @@
 // }
 
 /* ++++++++++++++++++++++++++++++++++++ switch -case +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-var sayi = 40;
-switch (sayi) {
-  case 10:
-    document.write("sayı 10 ");
-    break;
+// var sayi = 40;
+// switch (sayi) {
+//   case 10:
+//     document.write("sayı 10 ");
+//     break;
 
-  case 20:
-    document.write("sayı 20 ");
-    break;
+//   case 20:
+//     document.write("sayı 20 ");
+//     break;
 
-  case 30:
-    document.write("sayı 30 ");
-    break;
+//   case 30:
+//     document.write("sayı 30 ");
+//     break;
 
-  case 40:
-    document.write("sayı 40 ");
-    break;
+//   case 40:
+//     document.write("sayı 40 ");
+//     break;
 
-  default:
-    document.write("aradığınız bulunamadı..");
-    break;
+//   default:
+//     document.write("aradığınız bulunamadı..");
+//     break;
+// }
+
+/* ++++++++++++++++++++++++++++++++++++ loop +for +while +do-while +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+for (var sayi = 0; sayi < 10; sayi++) {
+  document.write(sayi + " ");
 }
+document.write("\n");
+
+
+
+
+var sayi2 = 0;
+while (sayi2 < 10) {
+  document.write(sayi2 + " ");
+  sayi2++;
+}
+
+document.write("\n");
+var sayi3 = 0;
+do {
+  document.write("şart sağlasın yada sağlamasın\n 1 kez çalışacak: " + sayi3);
+  sayi3+=1;
+} while (sayi3 < -20);
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
