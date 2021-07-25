@@ -313,6 +313,11 @@
 // var result=(sayi <= 10) ? "sayı 10 veya küçüktür" : "sayı 10'dan büyüktür";
 // alert(result)
 
+// var tarih,saat;
+// tarih= new Date();
+// saat=tarih.getHours();
+// var result=saat>=16 ? "büyüktür":"küçüktür";
+// alert(result);
 
 // var sayi = 40;
 // if (sayi == 10) {
@@ -327,7 +332,29 @@
 //   document.write("aradığınız bulunamadı..");
 // }
 
+/* ++++++++++++++++++++++++++++++++++++ switch -case +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+var sayi = 40;
+switch (sayi) {
+  case 10:
+    document.write("sayı 10 ");
+    break;
 
+  case 20:
+    document.write("sayı 20 ");
+    break;
+
+  case 30:
+    document.write("sayı 30 ");
+    break;
+
+  case 40:
+    document.write("sayı 40 ");
+    break;
+
+  default:
+    document.write("aradığınız bulunamadı..");
+    break;
+}
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
