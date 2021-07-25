@@ -442,19 +442,67 @@ interface  izin verilmez.
 // document.write("toplamları: " + toplam);
 
 /* ++++++++++++++++++++++++++++++++++++ Date +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-var tarih = new Date();
-console.log(tarih);
-console.log(tarih.getDate());
-console.log(tarih.getMonth());
-console.log(tarih.getTime());
-console.log(tarih.getFullYear());
-console.log(tarih.getMilliseconds());
+// var tarih = new Date();
+// console.log(tarih);
+// console.log(tarih.getDate());
+// console.log(tarih.getMonth());
+// console.log(tarih.getTime());
+// console.log(tarih.getFullYear());
+// console.log(tarih.getMilliseconds());
 
-console.log(tarih.setDate(5));
-console.log(tarih.getDate());
-console.log(tarih.toDateString());
+// console.log(tarih.setDate(5));
+// console.log(tarih.getDate());
+// console.log(tarih.toDateString());
 
 // console.log(tarih);
+
+/* ++++++++++++++++++++++++++++++++++++ Object +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//farklı özellikler bütünüdür.
+//current brackets,kıvırcık parantez, gövdeli parantez
+// var pAdi, pSoyadi;
+// pAdi = prompt("adınız");
+// pSoyadi = prompt("soyadınız");
+// var mouse = {
+//   adi: pAdi,
+//   soyadi: pSoyadi,
+//   diller: 10,
+//   okudumu: true,
+// };
+// if (mouse.okudumu) {
+//   document.write("okudu");
+// } else {
+//   document.write("okumadı");
+// }
+//alert(mouse.adi+" "+mouse.okudumu+" "+mouse.soyadi);
+// let kelime = "JavA Kelime";
+// document.write(kelime.length + "\n");
+// document.write(kelime.trim().length + "\n");
+// document.write(kelime.toUpperCase() + "\n");
+// document.write(kelime.toLowerCase() + "\n");
+// document.write(kelime + " sonuna eklendi" + "\n");
+// document.write(kelime.concat(" sonuna eklendi") + "\n");
+// document.write(kelime.charAt(0) + "\t");
+
+// document.write(kelime.indexOf("v"));
+// document.write(kelime.search("v"));
+// document.write(kelime.lastIndexOf("m"));
+
+// document.write(kelime.replace("JavA", " javascript"));
+
+// document.write(kelime.substring(0, 2) + " \n"); //0<=x<2
+// document.write(kelime.slice(-10, 2) + " \n"); //0<=x<2
+
+//var user = prompt("Harf giriniz");
+//document.write(kelime.startsWith(user)+" \n");
+// document.write(kelime.startsWith("J") + " \n");
+// document.write(kelime.endsWith(" ") + " \n");
+// document.write( " \n");
+// document.write(kelime.split("") + " \n");
+// document.write(kelime.split("a") + " \n");
+// var soyadi = mouse.soyadi;
+// document.write(soyadi.length);
+
+
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
@@ -469,5 +517,13 @@ console.log(tarih.toDateString());
 1-) Local değişkenler kullanın
 2-) function birimlerde let kullanalım.
 3-) bir yerde native görürsem bilecem ki () yazmadım
+
+*/
+
+/* Kısayollar
+1-) Shift+Alt+F =Formatlama
+2-)Ctrl+ (artı tuşu)=ekranı büyütür
+3-)Ctrl+ (eksi tuşu)=ekranı küçültür
+4-)Ctrl+k comment(yorumlama)
 
 */
