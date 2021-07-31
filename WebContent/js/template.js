@@ -600,6 +600,21 @@ interface  izin verilmez.
 // dizi.sort()
 // alert(dizi.reverse());
 
+/* ++++++++++++++++++++++++++++++++++++ dizi push() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//push() ==> eklemek
+//LIFO
+var dizi = [1, 2, 3];
+for (temp in dizi) {
+  document.write(dizi[temp] + " ");
+}
+
+document.writeln();
+
+dizi.push(4);
+for (temp in dizi) {
+  document.write(dizi[temp] + " ");
+}
+
 // dizi ve object
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
