@@ -678,12 +678,17 @@ interface  izin verilmez.
 
 // dizi ve object
 
-
 /* ++++++++++++++++++++++++++++++++++++ dizi Event +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//1-) onclick() ==> 1 kere tıklandığında
 function onclickFonksiyon() {
-  alert("1. kere Tıklandı")
+  alert("2. kere Tıklandı");
 }
 
+//2-) ondblclick() ==> 2.kere tıklandığında
+
+function ondblclickFonksiyon() {
+  alert("2. kere Tıklandı");
+}
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
