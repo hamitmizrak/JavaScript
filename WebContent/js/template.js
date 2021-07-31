@@ -633,7 +633,22 @@ interface  izin verilmez.
 
 /* ++++++++++++++++++++++++++++++++++++ ÇIKARMAK +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++++++++++++++++++++++++++ dizi pop() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-//unshift() ==> sondan 1 eleman çıkarmak
+//pop() ==> sondan 1 eleman çıkarmak
+//LIFO
+// var dizi = [1, 2, 3];
+// for (temp in dizi) {
+//   document.write(dizi[temp] + " ");
+// }
+
+// document.writeln();
+
+// dizi.pop();
+// for (temp in dizi) {
+//   document.write(dizi[temp] + " ");
+// }
+
+/* ++++++++++++++++++++++++++++++++++++ dizi shift() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//shift() ==> başıdan  1 eleman çıkarmak
 //LIFO
 var dizi = [1, 2, 3];
 for (temp in dizi) {
@@ -642,7 +657,7 @@ for (temp in dizi) {
 
 document.writeln();
 
-dizi.pop();
+dizi.shift();
 for (temp in dizi) {
   document.write(dizi[temp] + " ");
 }
