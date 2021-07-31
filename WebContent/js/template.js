@@ -600,8 +600,24 @@ interface  izin verilmez.
 // dizi.sort()
 // alert(dizi.reverse());
 
+/* ++++++++++++++++++++++++++++++++++++ EKLEMEK +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++++++++++++++++++++++++++ dizi push() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-//push() ==> eklemek
+//push() ==> sonuna eklemek
+//LIFO
+// var dizi = [1, 2, 3];
+// for (temp in dizi) {
+//   document.write(dizi[temp] + " ");
+// }
+
+// document.writeln();
+
+// dizi.push(4);
+// for (temp in dizi) {
+//   document.write(dizi[temp] + " ");
+// }
+
+/* ++++++++++++++++++++++++++++++++++++ dizi unshift() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//unshift() ==> başına  eklemek
 //LIFO
 var dizi = [1, 2, 3];
 for (temp in dizi) {
@@ -610,7 +626,7 @@ for (temp in dizi) {
 
 document.writeln();
 
-dizi.push(4);
+dizi.unshift(4);
 for (temp in dizi) {
   document.write(dizi[temp] + " ");
 }
