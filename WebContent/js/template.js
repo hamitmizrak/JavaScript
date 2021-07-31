@@ -681,13 +681,27 @@ interface  izin verilmez.
 /* ++++++++++++++++++++++++++++++++++++ dizi Event +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 //1-) onclick() ==> 1 kere tıklandığında
 function onclickFonksiyon() {
-  alert("2. kere Tıklandı");
+  alert("1. kere Tıklandı");
 }
 
 //2-) ondblclick() ==> 2.kere tıklandığında
-
 function ondblclickFonksiyon() {
   alert("2. kere Tıklandı");
+}
+
+//3-) onmouseleaveFonksiyon() ==> mousela üzeridnen ayrıldığım
+function onmouseleaveFonksiyon() {
+  alert("Mouse ayrıldığında");
+}
+
+//4-) onmousemoveFonksiyon() ==> mousela üzerine geldiğimde
+function onmousemoveFonksiyon() {
+  alert("mousela üzerine geldiğimde");
+}
+
+//5-) onmousemoveFonksiyon() ==> mousela üzerinden ayrıldığım zaman
+function onmouseoutFonksiyon() {
+  alert("mousela üzerinden ayrıldığım zaman");
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
