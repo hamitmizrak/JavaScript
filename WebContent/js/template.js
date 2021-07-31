@@ -602,7 +602,7 @@ interface  izin verilmez.
 
 /* ++++++++++++++++++++++++++++++++++++ EKLEMEK +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++++++++++++++++++++++++++ dizi push() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-//push() ==> sonuna eklemek
+//push() ==> sonuna 1 eleman eklemek
 //LIFO
 // var dizi = [1, 2, 3];
 // for (temp in dizi) {
@@ -617,7 +617,23 @@ interface  izin verilmez.
 // }
 
 /* ++++++++++++++++++++++++++++++++++++ dizi unshift() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-//unshift() ==> başına  eklemek
+//unshift() ==> başına 1 eleman  eklemek
+//LIFO
+// var dizi = [1, 2, 3];
+// for (temp in dizi) {
+//   document.write(dizi[temp] + " ");
+// }
+
+// document.writeln();
+
+// dizi.unshift(4);
+// for (temp in dizi) {
+//   document.write(dizi[temp] + " ");
+// }
+
+/* ++++++++++++++++++++++++++++++++++++ ÇIKARMAK +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++ dizi pop() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//unshift() ==> sondan 1 eleman çıkarmak
 //LIFO
 var dizi = [1, 2, 3];
 for (temp in dizi) {
@@ -626,7 +642,7 @@ for (temp in dizi) {
 
 document.writeln();
 
-dizi.unshift(4);
+dizi.pop();
 for (temp in dizi) {
   document.write(dizi[temp] + " ");
 }
