@@ -678,7 +678,7 @@ interface  izin verilmez.
 
 // dizi ve object
 
-/* ++++++++++++++++++++++++++++++++++++ dizi Event +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++ mouse Event +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 //1-) onclick() ==> 1 kere tıklandığında
 function onclickFonksiyon() {
   alert("1. kere Tıklandı");
@@ -702,6 +702,17 @@ function onmousemoveFonksiyon() {
 //5-) onmousemoveFonksiyon() ==> mousela üzerinden ayrıldığım zaman
 function onmouseoutFonksiyon() {
   alert("mousela üzerinden ayrıldığım zaman");
+}
+
+// ...
+
+/* ++++++++++++++++++++++++++++++++++++ klavye Event +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+function onkeydownFonksiyon() {
+  alert("klavyeye tuşa dokunulduğu zaman aktifleşsin");
+}
+
+function onkeyUpFonksiyon() {
+  alert("klavyeye tuşdan elimi kaldırdığımda zaman aktifleşsin");
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
