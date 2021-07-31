@@ -680,39 +680,60 @@ interface  izin verilmez.
 
 /* ++++++++++++++++++++++++++++++++++++ mouse Event +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 //1-) onclick() ==> 1 kere tıklandığında
-function onclickFonksiyon() {
-  alert("1. kere Tıklandı");
-}
+// function onclickFonksiyon() {
+//   alert("1. kere Tıklandı");
+// }
 
 //2-) ondblclick() ==> 2.kere tıklandığında
-function ondblclickFonksiyon() {
-  alert("2. kere Tıklandı");
-}
+// function ondblclickFonksiyon() {
+//   alert("2. kere Tıklandı");
+// }
 
 //3-) onmouseleaveFonksiyon() ==> mousela üzeridnen ayrıldığım
-function onmouseleaveFonksiyon() {
-  alert("Mouse ayrıldığında");
-}
+// function onmouseleaveFonksiyon() {
+//   alert("Mouse ayrıldığında");
+// }
 
 //4-) onmousemoveFonksiyon() ==> mousela üzerine geldiğimde
-function onmousemoveFonksiyon() {
-  alert("mousela üzerine geldiğimde");
-}
+// function onmousemoveFonksiyon() {
+//   alert("mousela üzerine geldiğimde");
+// }
 
 //5-) onmousemoveFonksiyon() ==> mousela üzerinden ayrıldığım zaman
-function onmouseoutFonksiyon() {
-  alert("mousela üzerinden ayrıldığım zaman");
-}
+// function onmouseoutFonksiyon() {
+//   alert("mousela üzerinden ayrıldığım zaman");
+// }
 
 // ...
 
 /* ++++++++++++++++++++++++++++++++++++ klavye Event +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-function onkeydownFonksiyon() {
-  alert("klavyeye tuşa dokunulduğu zaman aktifleşsin");
+// function onkeydownFonksiyon() {
+//   alert("klavyeye tuşa dokunulduğu zaman aktifleşsin");
+// }
+
+// function onkeyUpFonksiyon() {
+//   alert("klavyeye tuşdan elimi kaldırdığımda zaman aktifleşsin");
+// }
+
+/* ++++++++++++++++++++++++++++++++++++ Dom +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// Document Object Model
+//DOM
+//BOM
+// Html özelliklerini değiştirme
+// css özelliklerini değiştirme
+// Js özelliklerini değiştirme
+
+function domClickMethod() {
+  // alert("dom çalıştı")
+  document.getElementById("domId").innerHTML = Date();
 }
 
-function onkeyUpFonksiyon() {
-  alert("klavyeye tuşdan elimi kaldırdığımda zaman aktifleşsin");
+//id="denemeId" class="denemeClass" name="denemeName"
+function domDortHtml() {
+  document.getElementById("denemeId0").innerHTML = "Id ile değiştirildi";
+  //document.getElementsByName("denemeName")[0].innerHTML ="name ile değiştirildi";
+  //document.getElementsByClassName("denemeClass")[1].innerHTML="class ile değiştirildi";
+  //document.getElementsByTagName("h5")[0].innerHTML = "tag ile değiştirildi";
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
