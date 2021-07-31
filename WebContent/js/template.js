@@ -728,12 +728,24 @@ function domClickMethod() {
   document.getElementById("domId").innerHTML = Date();
 }
 
+//innerHtml: html özelliklerini kullanamazsınız
 //id="denemeId" class="denemeClass" name="denemeName"
 function domDortHtml() {
-  document.getElementById("denemeId0").innerHTML = "Id ile değiştirildi";
+  document.getElementById("denemeId0").innerHTML =
+    "<b> <i>Id ile değiştirildi</i> </b>";
   //document.getElementsByName("denemeName")[0].innerHTML ="name ile değiştirildi";
   //document.getElementsByClassName("denemeClass")[1].innerHTML="class ile değiştirildi";
   //document.getElementsByTagName("h5")[0].innerHTML = "tag ile değiştirildi";
+}
+
+//innerText: html özelliklerini kullanamazsınız
+//h5 id="denemeIdText" name="denemeNameText" class="denemeClassText"
+function domDortText() {
+  document.getElementById("denemeIdText").innerText =
+    "<b>Id ile değiştirildi</b>";
+  //document.getElementsByName("denemeName")[0].innerText ="name ile değiştirildi";
+  //document.getElementsByClassName("denemeClass")[1].innerText="class ile değiştirildi";
+  //document.getElementsByTagName("h5")[0].innerText = "tag ile değiştirildi";
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
