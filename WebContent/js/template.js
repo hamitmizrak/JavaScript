@@ -678,6 +678,13 @@ interface  izin verilmez.
 
 // dizi ve object
 
+
+/* ++++++++++++++++++++++++++++++++++++ dizi Event +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+function onclickFonksiyon() {
+  alert("1. kere Tıklandı")
+}
+
+
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
 1-) kelime: tek tırnak , çift tırnak yazabiliriz.
