@@ -510,14 +510,90 @@ interface  izin verilmez.
 
 //breakpoint
 //debug
-function deneme44() {
-  let kelime = prompt("kelime giriniz");
-  document.write("trimsiz kelime eleman sayısı: " + kelime.length);
-  document.write("startsWith kelime eleman sayısı: " + kelime.startsWith("a"));
-  //document.write("trimli kelime eleman sayısı: " + kelime.trim().length);
-}
+// function deneme44() {
+//   let kelime = prompt("kelime giriniz");
+//   document.write("trimsiz kelime eleman sayısı: " + kelime.length);
+//   document.write("startsWith kelime eleman sayısı: " + kelime.startsWith("a"));
+//   //document.write("trimli kelime eleman sayısı: " + kelime.trim().length);
+// }
 
 /* ++++++++++++++++++++++++++++++++++++ Diziler +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//dizide index=0 başlar
+//dizilerde length kullanalım
+// var dizi = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// document.write(dizi[0]+"\n");
+
+// var toplam = 0;
+// var dizi = [];
+// for (var sayi = 0; sayi < 10; sayi++) {
+//   dizi[sayi] = sayi;
+//   toplam += sayi;
+// }
+// document.write(dizi[9] + " " + toplam);
+
+// var dizi2 = [4, 5.6, true, "JavaScript"];
+// alert(dizi2[2]);
+
+/* ++++++++++++++++++++++++++++++++++++ for in +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// var dizi = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+// //iterative for
+// for (let i = 0; i < dizi.length; i++) {
+//   document.write(dizi[i] + " ");
+// }
+
+// //for in
+// for (temp in dizi) {
+//   document.write(" - " + dizi[temp] + " ");
+// }
+
+/* ++++++++++++++++++++++++++++++++++++ dizi sort +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// var dizi = [1, 7, 8, 9, 2, 3, 4, 5, 6];
+// alert(dizi);
+// alert(dizi.length);
+// alert(dizi.sort());
+
+/* ++++++++++++++++++++++++++++++++++++ dizi delete +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+// var dizi = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+//iterative for
+// for (let i = 0; i < dizi.length; i++) {
+//   document.write(dizi[i] + " ");
+// }
+
+// delete dizi[0]
+
+// for (let i = 0; i < dizi.length; i++) {
+//   document.write(dizi[i] + " ");
+// }
+
+/* ++++++++++++++++++++++++++++++++++++ dizi toString() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+// var dizi = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+// dizi.toString();
+// var toplam=0;
+//iterative for
+// for (let i = 0; i < dizi.length; i++) {
+//   document.write(dizi[i] + " ");
+//   toplam+=dizi[i];
+// }
+// alert(toplam)
+
+/* ++++++++++++++++++++++++++++++++++++ dizi toString() +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+var dizi = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+dizi.join("*");
+var toplam = 0;
+//iterative for
+for (let i = 0; i < dizi.length; i++) {
+  document.write(dizi[i] + " ");
+  toplam += dizi[i];
+}
+alert(toplam);
+alert(dizi);
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
@@ -532,6 +608,8 @@ function deneme44() {
 1-) Local değişkenler kullanın
 2-) function birimlerde let kullanalım.
 3-) bir yerde native görürsem bilecem ki () yazmadım
+4-) var dizi=new Array() ==> bunun yerine  var dizi =[] ; 
+5-) var object=new Object() ==> bunun yerine  var dizi ={} ; 
 
 */
 
