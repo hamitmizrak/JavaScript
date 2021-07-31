@@ -502,7 +502,22 @@ interface  izin verilmez.
 // var soyadi = mouse.soyadi;
 // document.write(soyadi.length);
 
+/* ++++++++++++++++++++++++++++++++++++ Debug (Hata Ayıklama) +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//kodlarımızda mantıksal hata yaptık
+//document8.write(soyadi.length); //syntax error
+//var sayi=9/0;
+//var sonuc=9/"9"
 
+//breakpoint
+//debug
+function deneme44() {
+  let kelime = prompt("kelime giriniz");
+  document.write("trimsiz kelime eleman sayısı: " + kelime.length);
+  document.write("startsWith kelime eleman sayısı: " + kelime.startsWith("a"));
+  //document.write("trimli kelime eleman sayısı: " + kelime.trim().length);
+}
+
+/* ++++++++++++++++++++++++++++++++++++ Diziler +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
