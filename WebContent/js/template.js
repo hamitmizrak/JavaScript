@@ -715,6 +715,8 @@ interface  izin verilmez.
 //   alert("klavyeye tuşdan elimi kaldırdığımda zaman aktifleşsin");
 // }
 
+/* ++++++++++++++++++++++++++++++++++++ AddEventListener +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 /* ++++++++++++++++++++++++++++++++++++ Dom +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 // Document Object Model
 //DOM
@@ -723,30 +725,34 @@ interface  izin verilmez.
 // css özelliklerini değiştirme
 // Js özelliklerini değiştirme
 
-function domClickMethod() {
-  // alert("dom çalıştı")
-  document.getElementById("domId").innerHTML = Date();
-}
+// function domClickMethod() {
+// alert("dom çalıştı")
+// document.getElementById("domId").innerHTML = Date();
+//}
 
+//DOM HTML
 //innerHtml: html özelliklerini kullanamazsınız
 //id="denemeId" class="denemeClass" name="denemeName"
-function domDortHtml() {
-  document.getElementById("denemeId0").innerHTML =
-    "<b> <i>Id ile değiştirildi</i> </b>";
-  //document.getElementsByName("denemeName")[0].innerHTML ="name ile değiştirildi";
-  //document.getElementsByClassName("denemeClass")[1].innerHTML="class ile değiştirildi";
-  //document.getElementsByTagName("h5")[0].innerHTML = "tag ile değiştirildi";
-}
+// function domDortHtml() {
+//   document.getElementById("denemeId0").innerHTML =
+//     "<b> <i>Id ile değiştirildi</i> </b>";
+//document.getElementsByName("denemeName")[0].innerHTML ="name ile değiştirildi";
+//document.getElementsByClassName("denemeClass")[1].innerHTML="class ile değiştirildi";
+//document.getElementsByTagName("h5")[0].innerHTML = "tag ile değiştirildi";
+// }
 
+//DOM TEXT
 //innerText: html özelliklerini kullanamazsınız
 //h5 id="denemeIdText" name="denemeNameText" class="denemeClassText"
-function domDortText() {
-  document.getElementById("denemeIdText").innerText =
-    "<b>Id ile değiştirildi</b>";
-  //document.getElementsByName("denemeName")[0].innerText ="name ile değiştirildi";
-  //document.getElementsByClassName("denemeClass")[1].innerText="class ile değiştirildi";
-  //document.getElementsByTagName("h5")[0].innerText = "tag ile değiştirildi";
-}
+// function domDortText() {
+//   document.getElementById("denemeIdText").innerText =
+//     "<b>Id ile değiştirildi</b>";
+//document.getElementsByName("denemeNameText")[0].innerText ="name ile değiştirildi";
+//document.getElementsByClassName("denemeClassText")[1].innerText="class ile değiştirildi";
+//document.getElementsByTagName("h5")[2].innerText = "tag ile değiştirildi";
+// }
+
+//DOM CSS
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*common rules : Genel Kurallar
