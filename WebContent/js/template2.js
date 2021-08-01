@@ -8,12 +8,21 @@
 //document.querySelector("p").innerHTML = "Değiştirsin";
 //}
 
-function querySelectorMethod() {
-  //document.getElementById("addParagrafId2").innerText = "query eklendi";
-  //document.querySelector("#addParagrafId2").innerText = "query eklendi";
-  //document.querySelector(".addParagrafClass2").innerText = "query eklendi";
-  //document.querySelector("p").innerText = "query eklendi";
-  // document.querySelector("#deneme > p").innerText = "query eklendi";
+//function querySelectorMethod() {
+//document.getElementById("addParagrafId2").innerText = "query eklendi";
+//document.querySelector("#addParagrafId2").innerText = "query eklendi";
+//document.querySelector(".addParagrafClass2").innerText = "query eklendi";
+//document.querySelector("p").innerText = "query eklendi";
+// document.querySelector("#deneme > p").innerText = "query eklendi";
+//}
+
+function querySelectorMethodAll() {
+  var pDizisi = document.querySelectorAll("p");
+ // console.log(pDizisi);
+
+ for( temp  in pDizisi){
+   pDizisi[temp].innerHTML="Değişti";
+ }
 }
 
 //addEventListener
