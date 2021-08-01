@@ -1,3 +1,4 @@
+/* ++++++++++++++++++++++++++++++++++++ querySelector +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 //querySelector
 //function querySelectorMethod() {
 //alert("Tıklandı")
@@ -16,15 +17,17 @@
 // document.querySelector("#deneme > p").innerText = "query eklendi";
 //}
 
-function querySelectorMethodAll() {
-  var pDizisi = document.querySelectorAll("p");
- // console.log(pDizisi);
+/* ++++++++++++++++++++++++++++++++++++ querySelectorAll +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// function querySelectorMethodAll() {
+//   var pDizisi = document.querySelectorAll("p");
+//  // console.log(pDizisi);
 
- for( temp  in pDizisi){
-   pDizisi[temp].innerHTML="Değişti";
- }
-}
+//  for( temp  in pDizisi){
+//    pDizisi[temp].innerHTML="Değişti";
+//  }
+// }
 
+/* ++++++++++++++++++++++++++++++++++++ addEventListener("click",function(){}) +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 //addEventListener
 // function eklendi() {
 //document.getElementById("addId").addEventListener();
@@ -35,3 +38,26 @@ function querySelectorMethodAll() {
 //     document.querySelector("p").innerHTML = "Butona tıklanıldı 44";
 //   });
 // }
+
+//DOM
+function butunHtml() {
+  document.getElementById("htmlId").innerHTML = "<h1>inner Html Eklendi</h1>";
+}
+
+function butunText() {
+  document.getElementById("textId").innerText = "<h1>inner Html Eklendi</h1>";
+}
+
+function inlineCss() {
+  document.getElementById("cssId").style.color = "red";
+  document.getElementById("cssId").style.fontSize = "121px";
+  document.getElementById("cssId").style.background = "blue";
+  document.getElementById("cssId").style.border = "19px dotted green";
+}
+
+//classList.add();
+function internalCss() {
+  document.getElementById("cssId2").classList.add("cssAll44");
+}
+
+/* ++++++++++++++++++++++++++++++++++++ querySelector +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
